@@ -23,11 +23,12 @@
 
 
 
-
-
 /*generic classes***************************************************************************************/
 .w-12{
     width: 12%;
+}
+.w-6{
+    width: 6% !important;
 }
 .grey{
     color: rgb(204, 204, 204);
@@ -46,6 +47,12 @@
 }
 .bg-grey{
     background-color: rgb(221, 221, 221);
+}
+.bg-footer{
+    background-color: rgb(51, 51, 51);
+}
+.bg-dark{
+    background-color: black;
 }
 .border-yellow{
     border: 2px solid rgb(255, 255, 44); 
