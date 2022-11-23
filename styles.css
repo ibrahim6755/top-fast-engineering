@@ -44,12 +44,21 @@
 
 
 
-
-
-
+/*media queries*/
+@media (max-width: 768.98px) { 
+    .media-display{
+        margin-left: 0% !important;
+    }
+ }
 @media (max-width: 768.98px) { 
     .media{
         justify-content: start !important;
         margin-left: 5%;
     }
  }
+@media (max-width: 768.98px) { 
+    .display{
+        justify-content:start !important;
+    }
+ }
+ /*****************************************************************************************************************/
