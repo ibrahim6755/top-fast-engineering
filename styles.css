@@ -1,0 +1,43 @@
+.w-12{
+    width: 12%;
+}
+.grey{
+    color: rgb(204, 204, 204);
+}
+.text-yellow{
+    color: rgb(255, 255, 44);
+}
+.fs-smaller{
+    font-size: smaller;
+}
+.justify-content-space-around{
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768.98px) { 
+    .media{
+        justify-content: start !important;
+        margin-left: 5%;
+    }
+ }
