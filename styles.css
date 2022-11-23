@@ -6,6 +6,12 @@
     inset: 0;
     background-color: rgba(0, 0, 0, 0.6);
 }
+
+.overlay-blue{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(9, 0, 61, 0.8);
+}
 .carousel-caption{
     position: absolute;
     left: 15%;
@@ -14,6 +20,10 @@
 .para{
     display: none;
 }
+
+
+
+
 
 /*generic classes***************************************************************************************/
 .w-12{
@@ -36,6 +46,9 @@
 }
 .bg-grey{
     background-color: rgb(221, 221, 221);
+}
+.border-yellow{
+    border: 2px solid rgb(255, 255, 44); 
 }
 .text-align-justify{
     text-align: justify;
@@ -61,6 +74,9 @@
 /*nav bar pages dropdown*/
 .btn:hover{
     color: rgb(53, 53, 255);
+}
+.background-transparent{
+    background-color: transparent;
 }
 /******************************************************************************************************/
 
