@@ -13,7 +13,18 @@
 .justify-content-space-around{
     justify-content: space-around;
 }
-
+.justify-content-space-bet{
+    justify-content: space-between;
+}
+.list-style-none{
+    list-style-type: none;
+}
+.text-decor-none{
+    text-decoration: none;
+}
+.btn:hover{
+    color: rgb(53, 53, 255);
+}
 
 
 
