@@ -15,7 +15,6 @@
     display: none;
 }
 
-
 /*generic classes***************************************************************************************/
 .w-12{
     width: 12%;
@@ -29,14 +28,23 @@
 .text-yellow{
     color: rgb(255, 255, 44);
 }
+.text-grey{
+    color: rgb(117, 117, 117);
+}
 .bg-yellow{
     background-color:rgb(255, 255, 44); 
+}
+.bg-grey{
+    background-color: rgb(221, 221, 221);
 }
 .text-align-justify{
     text-align: justify;
 }
 .fs-smaller{
     font-size: smaller;
+}
+.fs-xsmall{
+    font-size: x-small;
 }
 .justify-content-space-around{
     justify-content: space-around;
