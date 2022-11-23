@@ -1,8 +1,28 @@
+.carousel-wrapper{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.carousel-caption{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+
+
+
+/*generic classes***************************************************************************************/
 .w-12{
     width: 12%;
 }
 .grey{
     color: rgb(204, 204, 204);
+}
+.border-bottom{
+    border-bottom: 2px solid rgb(255, 255, 44) !important;
 }
 .text-yellow{
     color: rgb(255, 255, 44);
@@ -26,25 +46,10 @@
 .btn:hover{
     color: rgb(53, 53, 255);
 }
-/*/
+/******************************************************************************************************/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*media queries*/
+/*media queries****************************************************************************************************/
 @media (max-width: 768.98px) { 
     .media-display{
         margin-left: 0% !important;
