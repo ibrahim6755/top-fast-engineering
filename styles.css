@@ -11,7 +11,9 @@
     left: 15%;
     top: 20%;
 }
-
+.para{
+    display: none;
+}
 
 
 /*generic classes***************************************************************************************/
@@ -26,6 +28,12 @@
 }
 .text-yellow{
     color: rgb(255, 255, 44);
+}
+.bg-yellow{
+    background-color:rgb(255, 255, 44); 
+}
+.text-align-justify{
+    text-align: justify;
 }
 .fs-smaller{
     font-size: smaller;
