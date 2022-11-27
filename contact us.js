@@ -1,5 +1,8 @@
 
 $(document).ready(function(){
+
+    let persons = [];
+
     $('#send').on('click' , function(){
         let name = $('#name').val();
         let email = $('#email').val();
@@ -12,7 +15,10 @@ $(document).ready(function(){
             subject:subject,
             msg:msg
         }
-        localStorage.setItem('data' , JSON.stringify(person))
+        
+        persons.push(person)
+        
+        localStorage.setItem('data' , JSON.stringify(persons))
          $('#name').val('');
          $('#email').val('');
          $('#subject').val('');
