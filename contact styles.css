@@ -27,6 +27,9 @@
 .w-6{
     width: 6% !important;
 }
+.w-15{
+    width: 15%;
+}
 .grey{
     color: rgb(204, 204, 204);
 }
